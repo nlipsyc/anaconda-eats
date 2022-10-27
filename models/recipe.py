@@ -28,5 +28,4 @@ class Recipe:
             'serving_size': self.serving_size,
             'cook_time': self.cook_time,
             'directions': self.directions,
-            'is_publish': self.is_publish
         }

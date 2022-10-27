@@ -6,7 +6,6 @@ from models.recipe import Recipe, recipe_list
 
 
 class RecipeListResource(Resource):
-
     def get(self):
         data = []
 
@@ -24,12 +23,13 @@ class RecipeListResource(Resource):
             description=data['description'],
             serving_size=data['serving_size'],
             cook_time=data['cook_time'],
-            directions=data['directions'],
+            directions=data['directions']
         )
 
         recipe_list.append(recipe)
 
         return recipe.data, HTTPStatus.CREATED
+
 
 class RecipeResource(Resource):
 
