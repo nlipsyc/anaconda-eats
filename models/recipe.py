@@ -10,13 +10,15 @@ def get_last_id():
 
 
 class Recipe:
-    def __init__(self, name, description, serving_size, cook_time, directions):
+    def __init__(self, name, ingredients, description, serving_size, cook_time, instructions, thumbnail):
         self.id = get_last_id()
         self.name = name
+        self.ingredients = ingredients
         self.description = description
+        self.thumbnail = thumbnail
         self.serving_size = serving_size
         self.cook_time = cook_time
-        self.directions = directions
+        self.instructions = instructions
         self.is_publish = False
 
     @property
@@ -24,8 +26,10 @@ class Recipe:
         return {
             'id': self.id,
             'name': self.name,
+            'ingredients': self.ingredients,
             'description': self.description,
+            'thumbnail': self.thumbnail,
             'serving_size': self.serving_size,
             'cook_time': self.cook_time,
-            'directions': self.directions,
+            'instructions': self.instructions,
         }
