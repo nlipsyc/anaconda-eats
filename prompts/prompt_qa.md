@@ -24,8 +24,8 @@ Refer to this API swagger doc `http://anacondaeats.pythonanywhere.com/#/` and wr
 2. Add a brand new receipe 
 3. Retrieve the newly added receipe
 4. Update the receipe that you just added on step 2.
-3. Publish the updated receipe
-4. Delete the receipe you just added
+5. Publish the updated receipe
+6. Delete the receipe you just added
 
 ### Automate the above test scenarios
 
