@@ -13,3 +13,4 @@ dependencies:
   - aiohttp
   - bottle
   - quart
+  - tornado
