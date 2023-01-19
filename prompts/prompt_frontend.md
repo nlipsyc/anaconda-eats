@@ -16,6 +16,7 @@ Pick a few of these prompts to implement:
 ## Tips & Tricks
 - Explain the approach you are intending to take and be sure to document any assumptions you made. 
 - Be sure to tell us what your priorities are when it comes to application so we know what you focused on and where you'd improve given more time.
+- If you would like to test things on an example backend, an API with Swagger docs is available [here](http://anacondaeats.pythonanywhere.com/)
 
 ## Requirements
 Please add a README that explains how to get your application up and running
