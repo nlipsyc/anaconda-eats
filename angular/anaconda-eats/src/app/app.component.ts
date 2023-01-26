@@ -11,12 +11,6 @@ export class AppComponent {
   title = 'anaconda-eat';
 
   constructor(private anacondaEats: AnacondaEatsService) {
-    this.anacondaEats.getRecipes().pipe(
-      tap((recipes) => {
-        console.log(recipes);
-      })
-    ).subscribe()
+
   }
-
-
 }

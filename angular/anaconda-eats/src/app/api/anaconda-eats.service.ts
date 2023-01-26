@@ -11,8 +11,4 @@ export class AnacondaEatsService {
   private readonly apiBase = '/api/'
 
   constructor(private http: HttpClient) { }
-
-  public getRecipes(): Observable<any> {
-    return this.http.get(`${this.apiBase}/recipes`)
-  }
 }
