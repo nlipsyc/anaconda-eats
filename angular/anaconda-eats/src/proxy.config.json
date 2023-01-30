@@ -1,0 +1,11 @@
+{
+    "/api/*": {
+        "target": "http://anacondaeats.pythonanywhere.com",
+        "secure": true,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "autoRewrite": true,
+        "cookieDomainRewrite": "localhost:4200",
+        "pathRewrite": { "^/api": "" }
+    }
+}
