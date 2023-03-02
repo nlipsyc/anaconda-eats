@@ -16,7 +16,6 @@ tasks:
       make environment
       conda activate anaconda-eats
 
-angular:
   - name: Setup and start Angular
     before: cd angular/anaconda-eats
     init: npm i
