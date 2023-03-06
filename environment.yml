@@ -3,14 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - flask
-  - django
-  - fastapi
+  - python==3.9
   - requests
-  - urllib3 
-  - httplib2
-  - httpx
-  - aiohttp
-  - bottle
-  - quart
-  - tornado
+  - urllib3
