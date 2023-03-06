@@ -26,3 +26,6 @@ Welcome to the greenfield coding portion of your interview at Anaconda! Today, y
 ## Requirements
 - Please add a README that explains how to get your application up and running.
 - Make sure that you've gone through and tested that everything you've made works.
+
+## Submitting
+- Please give your recruiter the link to the repo that you completed this assessment in. They will pass that link on to Anaconda engineers who will review your work and discuss it with you during the interview process.
