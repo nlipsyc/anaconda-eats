@@ -9,7 +9,7 @@ Welcome to the greenfield coding portion of your interview at Anaconda! Today, y
     * [Fullstack Engineer Prompt](prompts/prompt_fullstack.md)
     * [QA Engineer Prompt](prompts/prompt_qa.md)
 
-*Please* ask any questions you have. Reach out to your recruiter at Anaconda with any questions.
+3. *Please* ask any questions you have. Reach out to your recruiter at Anaconda with any questions.
 4. (optional) Use the gitpod instance and/or Makefile we've included in this repo to create an environment for this interview. See below for more details.
 5. Start programming! 
 
